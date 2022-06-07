@@ -18,6 +18,10 @@ export const CardPanelContentStyled = styled(CardContent)`
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    @media(max-width: 800px) {
+        flex-direction: column;
+        position: relative;
+      }
    
 `
 export const ItemStyled = styled.div`
